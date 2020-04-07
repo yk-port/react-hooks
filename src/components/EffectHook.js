@@ -6,7 +6,6 @@ function EffectHook() {
 
   useEffect(() => {
     document.title = `クリック数：${count} 回`;
-    console.log('render')
   }, [count])
 
   return (

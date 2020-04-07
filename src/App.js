@@ -4,12 +4,14 @@ import './App.css';
 // import FormHook from './components/FormHook';
 // import ItemHook from './components/ItemHook';
 // import ClassEffect from './components/ClassEffect';
-import EffectHook from './components/EffectHook';
+// import EffectHook from './components/EffectHook';
+import MouseEventEffect from './components/MouseEventEffect';
 
 function App() {
   return (
     <div className="App">
-      <EffectHook />
+      {/* <EffectHook /> */}
+      <MouseEventEffect />
     </div>
   );
 }
